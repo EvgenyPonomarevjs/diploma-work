@@ -1,0 +1,398 @@
+body {
+
+}
+/* Обнуление*/
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+
+
+/* Шапка*/
+.header {
+    background-image: url(../img/header.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    
+}
+.header::after{
+    content: "";
+    background-color: #000000;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 1170px;
+    margin: 0 auto;
+    padding-top: 46px;
+    z-index: 1;
+}
+.nav ul {
+    display: flex;
+}
+.nav li {
+   margin-right: 35px;
+}
+.nav li a {
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.text {
+    position: relative;
+    z-index: 1;
+    width: 679px;
+    margin: 0 auto;
+    margin-top: 125px;
+}
+.text h1 {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 45px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 145px;
+}
+
+/*ОСНОВНЫЕ БЛОКИ*/
+.wrap {
+   display: flex;
+   width: 1170px;
+   margin: 0 auto;
+   margin-top: 64px;
+}
+.main {
+    margin-right: 137px;
+}
+.block {
+    display: flex;
+    margin-bottom: 59px;
+}
+.block-img img {
+    width: 381px;
+}
+.block-content {
+   margin-left: 31px; 
+}
+.block-travel {
+    margin-bottom: 32px;
+}
+.block-travel ul {
+    display: flex;
+}
+.block-travel ul a{
+    color: #b59f5b;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.block-travel li {
+    margin-bottom: 14px;
+    margin-right: 20px;
+}
+.block-travel h2 a {
+    color: #0f0d0e;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    
+}
+.block-travel h2 {
+   margin-bottom: 14px; 
+}
+.date {
+    margin-right: 14px;
+    color: #888888;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 400;
+}
+.author {
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 700;
+}
+.block-text {
+    color: #0f0d0e;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.block-text-p {
+    margin-bottom: 17px;
+}
+
+
+/*sidebar*/
+
+.sidebar {
+    width: 270px;
+}
+.new-post {
+    margin-bottom: 46px;
+    color: #0f0d0e;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+.new-post h2 {
+    margin-bottom: 14px;
+}
+.new-post::after {
+    content: "";
+    display: inline-block;
+    width: 66px;
+    height: 3px;
+    border-bottom: 3px solid #b59f5b ;
+}
+.sidebar-post {
+    display: flex;
+    margin-bottom: 22px;
+}
+.post-img img {
+    width: 70px;
+    margin-right: 20px;
+}
+.post-content {
+    width: 180px;
+}
+.post-content-span {
+    display: inline-block;
+    margin-bottom: 9px;
+    font-family: "Open Sans";
+    font-size: 12px;
+    color: #000000;
+    opacity: 0.54;
+    font-weight: 400;
+}
+.post-content a {
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+/* ФОРМА ПОИСКА*/
+
+.form {
+    margin-top: 60px;
+}
+.poisk {
+    position: absolute;
+    width: 271px;
+    height: 49px;
+    background-color: #f4f7f6;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    padding-left: 20px;
+}
+.btn {
+    position: relative;
+    margin-left: 245px;
+    margin-top: 1px;
+    width: 48px;
+    height: 48px;
+    background-image: url(../img/search.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #b59f5b;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+}
+.mailing {
+    margin-top: 61px;
+    margin-bottom: 46px;
+    color: #0f0d0e;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+.mailing h2 {
+    margin-bottom: 14px;
+}
+.mailing::after {
+    content: "";
+    display: inline-block;
+    width: 66px;
+    height: 3px;
+    border-bottom: 3px solid #b59f5b ;
+}
+
+.email {
+    width: 271px;
+    height: 49px;
+    background-color: #f4f7f6;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    padding-left: 20px;
+}
+.signature {
+    box-sizing: border-box;
+    margin-top: 16px;
+    width: 292px;
+    height: 49px;
+    background-color: #b59f5b;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+
+/*ТЕГИ*/
+.tags {
+    margin-top: 61px;
+  }
+.tags-list { 
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+.item-tag {
+    margin-right: 5px;
+    margin-top: 5px;
+  }
+.item-tag a {
+    display: block;
+    padding: 9px 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #0f0d0e;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 700;
+    border: 3px solid #eeeeee;
+  }
+.topics {
+    margin-top: 61px;
+  }
+.topics-list { 
+    list-style-type: none;
+    padding: 0;
+  }
+.topics-item a {
+    text-decoration: none;
+    color: #000000;
+    font-family: open-sans;
+    font-weight: 700;
+    font-size: 14px;
+  }
+  
+.topic-wrap::after {
+    content: '';
+    border-bottom: 1px #eeeeee solid;
+    width: 270px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 23px;
+    margin-bottom: 23px;
+  }
+.topics-list span {
+    vertical-align: top;
+    font-size: 12px;
+    color: #b59f5b;
+  }
+
+
+/*ШАПКА*/
+
+.footer {
+    margin-left: auto;
+    margin-right: auto;
+}
+.socials-icons { 
+    display: block;
+}
+.socials-icons {
+    display: flex;
+    padding: 0;
+    padding-top: 31px;
+    padding-bottom: 31px;
+    list-style-type: none;
+    background-color: #f4f7f6;
+    width: 1200px;
+    justify-content: center;
+} 
+.social-link {
+    width: 24px;
+    height: 21px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+}  
+.link-twitter {
+    display: block;
+    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/004-twitter.svg");
+}   
+.link-pinterest {
+    display: block;
+    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/001-pinterest.svg");
+    padding-left: 30px;
+}  
+.link-facebook {
+    display: block;
+    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/002-facebook-logo.svg");
+    padding-left: 30px;
+} 
+.link-inst {
+    display: block;
+    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/005-instagram.svg");
+    padding-left: 30px;
+}
+.link-tumblr {
+    display: block;
+    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/003-tumblr.svg");
+    position: relative;
+    padding-left: 30px;
+}
+.socials-icons span {
+    display: block;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+.copy-text, .copy-text a {
+    font-size: 12px;
+    text-decoration: none;
+    font-family: open-sans bold;
+    color: #999999;
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 40px;
+}
