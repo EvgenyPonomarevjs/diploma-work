@@ -16,8 +16,8 @@ li {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    background-color: #000000;
     position: relative;
-    
 }
 .header::after{
     content: "";
@@ -84,7 +84,7 @@ li {
     margin-bottom: 59px;
 }
 .block-img img {
-    width: 381px;
+    min-width: 381px;
 }
 .block-content {
    margin-left: 31px; 
@@ -307,7 +307,7 @@ li {
 .topics-item a {
     text-decoration: none;
     color: #000000;
-    font-family: open-sans;
+    font-family: "Open Sans";
     font-weight: 700;
     font-size: 14px;
   }
@@ -362,25 +362,25 @@ li {
 .link-pinterest {
     display: block;
     background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/001-pinterest.svg");
-    padding-left: 30px;
+    margin-left: 30px;
 }  
 .link-facebook {
     display: block;
     background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/002-facebook-logo.svg");
-    padding-left: 30px;
+    margin-left: 30px;
 } 
 .link-inst {
     display: block;
     background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/005-instagram.svg");
-    padding-left: 30px;
+    margin-left: 30px;
 }
 .link-tumblr {
     display: block;
     background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/003-tumblr.svg");
-    position: relative;
-    padding-left: 30px;
+   
+    margin-left: 30px;
 }
-.socials-icons span {
+.socials-icons-text, .input-text {
     display: block;
     position: absolute;
     width: 1px;
@@ -390,7 +390,7 @@ li {
 .copy-text, .copy-text a {
     font-size: 12px;
     text-decoration: none;
-    font-family: open-sans bold;
+    font-family: "Open Sans";
     color: #999999;
     text-align: center;
     margin-top: 75px;
