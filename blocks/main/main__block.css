@@ -1,0 +1,60 @@
+.main__block {
+    display: flex;
+    margin-bottom: 59px;
+}
+.main__block_img {
+    min-width: 381px;
+}
+.main__block__content {
+   margin-left: 31px; 
+}
+.main__block__content_travel {
+    margin-bottom: 32px;
+}
+.main__block__content_travel ul {
+    display: flex;
+}
+.main__block__content_travel ul a{
+    color: #b59f5b;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.main__block__content_travel li {
+    margin-bottom: 14px;
+    margin-right: 20px;
+}
+.main__block__content_travel h2 a {
+    color: #0f0d0e;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    
+}
+.main__block__content-travel h2 {
+   margin-bottom: 14px; 
+}
+.main__block_travel-date {
+    margin-right: 14px;
+    color: #888888;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 400;
+}
+.main__block_travel-author {
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 700;
+}
+.main__block__content-text {
+    color: #0f0d0e;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 17px;
+}
