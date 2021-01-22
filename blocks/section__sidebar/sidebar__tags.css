@@ -1,0 +1,41 @@
+.sidebar__tags {
+    margin-top: 61px;
+  }
+.sidebar__tags_text {
+    margin-bottom: 46px;
+    color: #0f0d0e;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+.sidebar__tags_text::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    margin-top: 14px;
+    width: 66px;
+    height: 3px;
+    border-bottom: 3px solid #b59f5b ;
+}
+.sidebar__tags_list { 
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+.sidebar__tags_list-link {
+    margin-right: 5px;
+    margin-top: 5px;
+    display: block;
+    padding: 9px 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #0f0d0e;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 700;
+    border: 3px solid #eeeeee;
+  }
+
