@@ -1,0 +1,48 @@
+.sidebar__topics {
+    margin-top: 61px;
+  }
+  .sidebar__topic_text {
+    margin-bottom: 46px;
+    color: #0f0d0e;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+.sidebar__topic_text::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    margin-top: 14px;
+    width: 66px;
+    height: 3px;
+    border-bottom: 3px solid #b59f5b ;
+}
+
+.sidebar__topic_list-link {
+    text-decoration: none;
+    color: #000000;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 14px;
+  }
+  
+.sidebar__topic_list-link::after {
+    content: '';
+    border-bottom: 1px #eeeeee solid;
+    width: 270px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 23px;
+    margin-bottom: 23px;
+    vertical-align: top;
+    font-size: 12px;
+    color: #b59f5b;
+  }
+.sidebar__topic_list-link span {
+    vertical-align: top;
+    font-size: 12px;
+    color: #b59f5b;
+  }
