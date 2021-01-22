@@ -1,9 +1,11 @@
 @import url(../vendors/fonts/inter.css);
 @import url(../blocks/header/header.css);
 @import url(../vendors/reset.css);
+@import url(../blocks/wrap.css);
 @import url(../blocks/main/main.css);
 @import url(../blocks/main/main__block.css);
 @import url(../blocks/section__sidebar/sidebar__post.css);
 @import url(../blocks/section__sidebar/sidebar__form.css);
 @import url(../blocks/section__sidebar/sidebar__tags.css);
 @import url(../blocks/section__sidebar/sidebar__topic.css);
+@import url(../blocks/footer/footer.css);
