@@ -1,6 +1,7 @@
 .footer {
     margin: 0 auto;
     width: 1170px;
+    margin-top: 120px;
 }
 .footer__socials-icons {
         display: block;
