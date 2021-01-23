@@ -1,0 +1,72 @@
+.trands {
+    margin-top: 70px;
+}
+.trands_text {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+}
+.trands_text::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 65px;
+    background-color: #e1d9bd;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.trands__cards {
+    margin-top: 30px;
+    display: flex;
+}
+.trands__cards_card {
+    width: 415px;
+    height: 315px;
+    margin-left: 5px;
+    position: relative;
+}
+.trands__cards_card::before {
+    content: '';
+    background-color: #1f2113;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    background: #1f2113;
+}
+.trands__cards-one {
+    background-image: url(../img/trend1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.trands__cards-two {
+    background-image: url(../img/trend2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.trands__cards-three {
+    background-image: url(../img/trend3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.trands__cards-four {
+    background-image: url(../img/trend4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.trands__cards_card-text {
+    border : 1px solid #796a40;
+    margin : 144px 20px 14px 20px;
+    padding: 40px 30px;
+}
+.trands__cards_card-item {
+    color: #b59f5b;
+    font-weight: 700;
+    font-size: 14px;
+}
+.trands__cards_card-paragraph{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+}
