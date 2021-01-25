@@ -1,5 +1,8 @@
 .main {
+    margin: 0 auto;
     margin-right: 137px;
+    width: 100%;
+    max-width: 1170px;
 }
 
 

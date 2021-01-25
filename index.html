@@ -4,29 +4,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/staly.css">
     <link rel="stylesheet" href="/pages/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <title>Дипломная работа</title>
 </head>
 
 <body>
-    <header class="header">
-        <div class="header__top">
-            <a class="header__top_logo" href="#0"><img src="./img/noemi-logo.png" alt="Логотип"></a>
-            <nav class="header__top_nav">
-                <ul>
-                    <li><a href="#0">главная</a></li>
-                    <li><a href="#0">посты</a></li>
-                    <li><a href="#0">статьи</a></li>
-                    <li><a href="#0">теги</a></li>
-                    <li><a href="#0">темы</a></li>
-                    <li><a href="#0">контакты</a></li>
-                </ul>
-            </nav>
+    <div class="header__wrap">
+        <header class="header">
+            <div class="header__top">
+                <a class="header__top_logo" href="#0"><img src="./img/noemi-logo.png" alt="Логотип"></a>
+                <nav class="header__top_nav">
+                    <ul class="header__top_nav-list">
+                        <li><a href="#0">главная</a></li>
+                        <li><a href="#0">посты</a></li>
+                        <li><a href="#0">статьи</a></li>
+                        <li><a href="#0">теги</a></li>
+                        <li><a href="#0">темы</a></li>
+                        <li><a href="#0">контакты</a></li>
+                    </ul>
+                    <div class="menu__burger">
+                        <span class="span__burger"></span>
+                    </div>
+                </nav>
+            </div>
+            <h1 class="header__text">Блог о творчестве, спорте, и образе жизни</h1>
+        </header>
+    </div>
+    <div class="modal__wrapper">
+        <div class="modal__window-form">
+            <div class="modal__content">
+                <div class="madal__close">
+                    <span class="line__one"></span>
+                    <span class="line__two"></span>
+                </div>
+                <h3 class="modal__title">Ваш Фитбек</h3>
+                <form action="" class="modal__form">
+                    <span class="subtitle__list">Как часто вы заходите на сайт</span>
+                    <label for="">
+                        <select class="list__modal" name="days" id="">
+                            <option value="t1">
+                                Почти каждый день
+
+                            </option>
+                            <option selected value="t2">Крыса Лариса</option>
+                        </select>
+                    </label>
+                    <span class="checkbox__sutitle">
+                        Вы подписались на email рассылку ?
+                    </span>
+                    <input type="checkbox" name="chek">
+                </form>
+            </div>
         </div>
-        <h1 class="header__text">Блог о творчестве, спорте, и образе жизни</h1>
-    </header>
+    </div>
     <section class="trands">
         <h2 class="trands_text">Сейчас в тренде</h2>
         <div class="trands__cards">
@@ -37,7 +68,7 @@
                 </div>
             </div>
             <div class="trands__cards_card trands__cards-two">
-                <div class="trands__cards_card-text">
+                <div class="trands__cards_card-text card__inner__trand-second">
                     <h3 class="trands__cards_card-item">Food</h3>
                     <p class="trands__cards_card-paragraph">сыры на красивых картинках из интернета: какие они на вкус?
                     </p>
@@ -59,7 +90,7 @@
     </section>
     <div class="wrap">
         <main class="main">
-            <div class="main__block">
+            <div class="main__block section-title-travel">
                 <img class="main__block_img" src="./img/block1.png" alt="Картинка">
                 <div class="main__block__content">
                     <div class="main__block__content_travel">
@@ -90,9 +121,9 @@
                         <span class="main__block_travel-date">10 июня 2019</span>
                         <span class="main__block_travel-author">>Неизвестны автор</span>
                     </div>
-                    <p class="main__block__content-text"></p>>Расскажем, какие упражнения выбрать и как сделать коврик
-                    для занятий йогой из того, что можно
-                    найти в шкафу.</p>
+                    <p class="main__block__content-text">Расскажем, какие упражнения выбрать и как сделать коврик
+                        для занятий йогой из того, что можно
+                        найти в шкафу.</p>
                 </div>
             </div>
             <div class="main__block">
@@ -133,7 +164,7 @@
                 </div>
             </div>
             <div class="main__block">
-                <img class="main__block_img" src="./img/block3.png" alt="Картинка">
+                <img class="main__block_img" src="./img/block5.png" alt="Картинка">
                 <div class="main__block__content">
                     <div class="main__block__content_travel">
                         <ul>
@@ -151,7 +182,8 @@
                         чистка подушек, проще снять чехлы, чем везти подушку в химчистку.</p>
                 </div>
             </div>
-            <div class="main__block">
+            
+            <!-- <div class="main__block">
                 <img class="main__block_img" src="./img/block3.png" alt="Картинка">
                 <div class="main__block__content">
                     <div class="main__block__content_travel">
@@ -168,25 +200,7 @@
                         путешествие. Это зависит от
                         многих факторов, не только от ваших желаний и интересов.</p>
                 </div>
-            </div>
-            <div class="main__block">
-                <img class="main__block_img" src="./img/block3.png" alt="Картинка">
-                <div class="main__block__content">
-                    <div class="main__block__content_travel">
-                        <ul>
-                            <li><a href="#0">lyfestyle</a></li>
-                            <li><a href="#0">food</a></li>
-                        </ul>
-                        <h2><a href="https://shkolazhizni.ru/culture/articles/71480/© Shkolazhizni.ru">Наукоёмкий подход
-                                к кулинарии</a> </h2>
-                        <span class="main__block_travel-date">10 июня 2019</span>
-                        <span class="main__block_travel-author">Неизвестный автор</span>
-                    </div>
-                    <p class="main__block__content-text">Узнаем основы проектирования новых пищевых и около-пищевых
-                        опытов, вскроем физику, химию и
-                        микробиологию еды.</p>
-                </div>
-            </div>
+            </div> -->
         </main>
         <section class="sidebar">
             <h2 class="sidebar_text">новые посты</h2>
@@ -243,9 +257,7 @@
                 </form>
                 <h2 class="sidebar__form_text">Рассылка</h2>
                 <form action="#">
-                    <input class="sidebar__form_email" type="email" placeholder="Ваш email-адрес"><span
-                        class="input-text">Ваш
-                        email-адрес</span></input>
+                    <input class="sidebar__form_email" type="email" placeholder="Ваш email-адрес"></input>
                     <input class="sidebar__form_sub" type="submit" value="Подписаться">
                 </form>
             </aside>
@@ -282,20 +294,18 @@
                 <picture>
                     <source srcset="./img/shop-item-tablet1.jpg" media="(min-width: 641px ) and (max-width:1201px)">
                     <source srcset="./img/shop-item-mobile1.jpg" media="(min-width: 360px ) and (max-width:640px)">
-                    <img class="cards__goods-pic-third" src="./img/shop-item-desk1.jpg" alt="tot">
+                    <img class="goods__block-img" src="./img/shop-item-desk1.jpg" alt="tot">
                 </picture>
-                <div class="goods__block_wrap">
-                    <div class="goods__block_text">
-                        <h4 class="goods__block_text-title"> Подушки на диване</h4>
-                        <p class="goods__block_text-paragraf">Набор из двух подушек с модными принтами. Видео о
-                            создании<a href="#0" class="goods__block_text-link">здесь</a>.</p>
-                        <div class="goods__block_price">
-                            <div class="goods__block_price-text">
-                                <span class="goods__block_price-item">1000</span>
-                                <span class="goods__block_price-span">800</span>
-                            </div>
-                            <button class="goods__block_price-btn">В магазин</button>
+                <div class="goods__block_text">
+                    <h4 class="goods__block_text-title"> Подушки на диване</h4>
+                    <p class="goods__block_text-paragraf">Набор из двух подушек с модными принтами. Видео о
+                        создании<a href="#0" class="goods__block_text-link">здесь</a>.</p>
+                    <div class="goods__block_price">
+                        <div class="goods__block_price-text">
+                            <span class="goods__block_price-item">1000</span>
+                            <span class="goods__block_price-span">800</span>
                         </div>
+                        <button class="goods__block_price-btn">В магазин</button>
                     </div>
                 </div>
             </div>
@@ -303,7 +313,7 @@
                 <picture>
                     <source srcset="./img/shop-item-tablet2.jpg" media="(min-width: 641px ) and (max-width:1201px)">
                     <source srcset="./img/shop-item-mobile2.jpg" media="(min-width: 360px ) and (max-width:640px)">
-                    <img class="cards__goods-pic-third" src="./img/shop-item-desk2.jpg" alt="tot">
+                    <img class="goods__block-img" src="./img/shop-item-desk2.jpg" alt="tot">
                 </picture>
                 <div class="goods__block_text">
                     <h4 class="goods__block_text-title"> Подушки на диване</h4>
@@ -318,11 +328,11 @@
                     </div>
                 </div>
             </div>
-            <div class="goods__block">
+            <div class="goods__block goods__block_item">
                 <picture>
                     <source srcset="./img/shop-item-tablet3.jpg" media="(min-width: 641px ) and (max-width:1201px)">
                     <source srcset="./img/shop-item-mobile3.jpg" media="(min-width: 360px ) and (max-width:640px)">
-                    <img class="cards__goods-pic-third" src="./img/shop-item-desk3.jpg" alt="tot">
+                    <img class="goods__block-img" src="./img/shop-item-desk3.jpg" alt="tot">
                 </picture>
                 <div class="goods__block_text">
                     <h4 class="goods__block_text-title"> Подушки на диване</h4>

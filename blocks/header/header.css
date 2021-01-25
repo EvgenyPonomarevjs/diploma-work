@@ -1,10 +1,15 @@
-.header {
+.header__wrap {
     background-image: url(/img/header.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     background-color: #000000;
     position: relative;
+}
+.header {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
 }
 .header::after{
     content: "";
@@ -21,7 +26,6 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
-    width: 1170px;
     margin: 0 auto;
     padding-top: 46px;
     z-index: 1;
