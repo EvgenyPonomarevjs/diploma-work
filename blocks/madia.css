@@ -1,0 +1,408 @@
+@media (min-width: 1200px) {
+    .header {
+    }
+    .header__top {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .header__top_nav {
+        max-width: 1200px;
+        padding-left : 15px;
+        padding-right: 15px;
+    }
+    .header__top {
+        padding-right: 0;
+    }
+    .menu__burger {
+        display: none;
+    }
+    .wrap {
+        margin-left : auto;
+        margin-right: auto;
+    }
+    .footer {
+        padding-right: 15px;
+        padding-left : 15px;
+    }
+}
+@media (min-width:768px) and (max-width:1200px) {
+    .header {
+        margin: 0 auto
+    }
+    .header__top {
+        padding-right: 15px;
+        padding-left : 15px;
+    }
+    .header__top_nav-list li {
+        display: none;
+    }
+    .header__text {
+        font-size: 40px;
+        width: 612px;
+    }
+    .menu__burger {
+        width: 20px;
+        height: 30px;
+        display: block;
+        padding-top: 18px;
+    }
+    .span__burger {
+        display: block;
+        width: 20px;
+        height: 2px;
+        background-color: #ffffff;
+        position: absolute;
+    }
+    .span__burger::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background-color: #ffffff;
+        margin-top: -8px;
+    }
+    .span__burger::after {
+        content: "";
+        margin-top: 15px;
+        width: 20px;
+        height: 2px;
+        display: block;
+        background-color: #ffffff;
+    }
+    .trands__cards {
+        flex-wrap: wrap;
+    }
+
+    .trands__cards_card {
+        width: 49%;
+        height: auto;
+        margin-top: 3px;
+    }
+
+    .trands__cards_card-paragraph {
+        font-size: 17px;
+    }
+
+    .card__inner__trand-second {
+        margin-top: 121px;
+    }
+
+    .main__block {
+        flex-wrap: wrap;
+        max-width: 381px;
+    }
+
+    .section-title-travel {
+        padding-top: 10px;
+    }
+
+    .main {
+        margin-left : 0;
+        padding-left: 35px;
+    }
+
+    .main__block__content {
+        margin-left: 0;
+        margin-top : 20px;
+    }
+
+    .sidebar {
+        width: 100%;
+        margin-left: 35px;
+        max-width: 272px;
+        margin-right: 35px;
+    }
+
+    .goods {
+        margin-left  : 0;
+        padding-left : 0;
+        padding-right: 0;
+    }
+
+    .goods__block {
+        margin-bottom: 150px;
+    }
+
+    .goods__block-img {
+        background-image: url(../img/shop-item-tablet2.jpg);
+    }
+
+    .wrapper__cards-goods {
+        flex-wrap: wrap;
+    }
+
+    .goods__wrap {
+        flex-wrap    : wrap;
+        padding-left : 35px;
+        padding-right: 35px;
+    }
+
+    .goods__block_text::before {
+        margin-left: -25px;
+    }
+
+    .footer {
+        min-width: 768px;
+    }
+}
+@media (min-width:641px) and (max-width:767px), (orientation: landscape) {
+    .header {
+        margin: 0 auto
+    }
+
+    .header__top {
+        padding-right: 15px;
+        padding-left : 15px;
+    }
+
+    .header__top_nav-list li {
+        display: none;
+    }
+
+    .header__text {
+        font-size: 40px;
+        width: 612px;
+    }
+
+    .menu__burger {
+        width: 20px;
+        height: 30px;
+        display: block;
+        padding-top: 18px;
+    }
+
+    .span__burger {
+        display: block;
+        width: 20px;
+        height: 2px;
+        background-color: #ffffff;
+        position: absolute;
+    }
+
+    .span__burger::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background-color: #ffffff;
+        margin-top: -8px;
+    }
+    .span__burger::after {
+        content: "";
+        margin-top: 15px;
+        width: 20px;
+        height: 2px;
+        display: block;
+        background-color: #ffffff;
+    }
+    .trands__cards {
+        flex-wrap: wrap;
+    }
+    .trands__cards_card {
+        width: 49%;
+
+        margin-top: 3px;
+    }
+    .trands__cards_card-paragraph {
+        font-size: 17px;
+    }
+    .card__inner__trand-second {
+        margin-top: 121px;
+    }
+    .wrap {
+        max-width: 699px;
+        margin-top: 100px;
+    }
+    .main {
+        display: block;
+        margin: 0 auto;
+        margin-right: 36px;
+    }
+    .main__block {
+        flex-wrap: wrap;
+        max-width: 381px;
+        margin: 0 auto;
+    }
+    .main__block__content {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .main__block__content_travel h2 {
+        padding-top: 10px;
+    }
+    .travel__block {
+        margin-left: 0;
+        margin-top : 20px;
+    }
+    .sidebar {
+        width: 100%;
+        max-width: 272px;
+    }
+    .goods__block {
+        margin: auto;
+        margin-bottom: 100px;
+    }
+    .goods__wrap {
+        flex-wrap: wrap;
+    }
+    .goods__wrap-goods {
+        flex-wrap: wrap;
+        padding-left: 35px;
+        padding-right: 35px;
+
+    }
+    .goods__block_text::before {
+        margin-left: -25px;
+    }
+    .footer {
+        min-width: 641px;
+    }
+}
+
+@media (min-width:320px) and (max-width:640px) {
+    .header {
+        margin: 0 auto;
+        min-width: 360px;
+    }
+    .header__top {
+        padding-right: 15px;
+        padding-left : 15px;
+        min-width    : 330px;
+    }
+    .header__top_nav-list li {
+        display: none;
+    }
+    .header__top_logo {
+        margin: 0 auto;
+        margin-top: 178px;
+        height: 68px;
+    }
+    .menu__burger {
+        width: 20px;
+        height: 30px;
+        display: block;
+        padding-top: 18px;
+        position: absolute;
+        top: 30px;
+        right: 0;
+    }
+    .menu-list {
+        display: none;
+    }
+    .header__text {
+        font-size: 26px;
+        max-width: 330px;
+        margin-top: 0;
+        padding-top: 46px;
+        padding-bottom: 220px;
+        line-height: 33px;
+    }
+    .span__burger {
+        display: block;
+        width: 20px;
+        height: 2px;
+        background-color: #ffffff;
+        position: absolute;
+    }
+
+    .span__burger::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background-color: #ffffff;
+        margin-top: -8px;
+    }
+
+    .span__burger::after {
+        content: "";
+        margin-top: 15px;
+        width: 20px;
+        height: 2px;
+        display: block;
+        background-color: #ffffff;
+    }
+    .trands__cards {
+        flex-wrap: wrap;
+    }
+    .trands__cards_card {
+        width: 100%;
+        height: auto;
+        margin-top: 3px;
+    }
+    .trands__cards_card-paragraph {
+        font-size: 17px;
+    }
+
+    .card__inner__trand-second {
+        margin-top: 121px;
+    }
+    .wrap {
+        flex-flow: column;
+        align-items: center;
+    }
+    .main {
+    margin: auto;
+    }
+    .main__block_img {
+        width: 330px;
+    }
+    .main__block {
+        flex-wrap: wrap;
+        max-width: 381px;
+        margin: 0 auto;
+    }
+    .main__block__content_travel h2 {
+        padding-top: 10px;
+    }
+    .inner__travel-block {
+        margin       : 70px auto;
+        padding-left : 15px;
+        padding-right: 15px;
+        max-width    : 360px;
+    }
+    .main__block__content {
+        margin-left: 0;
+        margin-top : 20px;
+    }
+    .sidebar {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        max-width: 330px;
+    }
+    .sidebar__form_search {
+        min-width: 245px;
+    }
+    .sidebar__form_email {
+        min-width: 300px;
+    }
+    .goods {
+        margin-left  : 0;
+        padding-left : 0;
+        padding-right: 0;
+    }
+    .goods__block {
+        margin-bottom: 200px;
+    }
+    .goods__wrap {
+        flex-wrap    : wrap;
+        max-width    : 285px;
+        margin       : 0 auto;
+        padding-left : 0;
+        padding-right: 0;
+    }
+
+    .goods__block_text::before {
+        margin-left: -23px;
+        width      : 330px;
+    }
+    .footer {
+        min-width: 330px;
+    }
+    .footer__socials-icons {
+        min-width: 330px;
+        padding-left : 15px;
+        padding-right: 15px;
+    }
+}

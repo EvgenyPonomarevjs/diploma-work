@@ -23,9 +23,8 @@
 }
 .goods__wrap {
     display: flex;
-    padding-right: 20px;
+    margin: 0 auto;
     justify-content: space-between;
-    padding-left: 20px;
 }
 .goods__block {
     width: 300px;
