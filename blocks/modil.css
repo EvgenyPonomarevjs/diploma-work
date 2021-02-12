@@ -9,38 +9,34 @@
 }
 
 .modal__content {
-    width           : 480px;
+    width: 480px;
     background-color: #fff;
-    color           : black;
-    padding         : 30px;
-    position        : relative;
-    min-height      : 100%;
+    color: black;
+    padding: 30px;
+    position: relative;
+    min-height: 100%;
 }
 
 .madal__close {
-    position       : absolute;
-    width          : 20px;
-    height         : 20px;
-    /* right       : 136px; */
-    top            : -25px;
-    /* left        : 95%; */
-    /* right       : -10px; */
-    left           : 460px;
-    /* margin-right: -34px; */
-    display        : block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: -25px;
+    left: 460px;
+    display: block;
 }
 
 .line__one {
-    display         : block;
-    min-width       : 20px;
-    height          : 2px;
+    display: block;
+    min-width: 20px;
+    height: 2px;
     background-color: #ffffff;
-    margin-top      : 10px;
-    transform       : rotate(45deg);
+    margin-top: 10px;
+    transform: rotate(45deg);
 }
 
 .line__one::before {
-    content         : "";
+    content        : "";
     display         : block;
     width           : 20px;
     height          : 2px;
