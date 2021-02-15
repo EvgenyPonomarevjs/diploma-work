@@ -26,7 +26,6 @@
     width: 415px;
     height: 315px;
     margin-left: 5px;
-    position: relative;
 }
 .trands__cards_card::before {
     content: '';
